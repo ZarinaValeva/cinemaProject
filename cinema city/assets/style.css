@@ -1,0 +1,173 @@
+body{
+    background-image: url('imgs/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+#logo>img{
+    padding: 20px 50px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#first>li{
+    display: inline-block;
+    text-decoration: none;
+    width: 16%;
+    border-right: 1px solid gray;
+    margin-left: -4px;
+    text-align: center;
+}
+#first>li:last-child{
+    border-right: none;
+}
+#first>li:hover{
+    background-color: darkblue;
+    border-top: 5px solid lightskyblue;
+    cursor: pointer;
+}
+
+#navigation>ul>li>h4{
+    color: white;
+}
+
+#navigation{
+    padding-top: 30px;
+}
+#second{
+    display: none;
+    float: none;
+    color: white;
+    /*padding-left: 100px;*/
+            visibility: hidden;
+}
+#progr{
+    list-style-type: none;
+        text-align: center;
+
+
+}
+#second>#progr>li{
+    padding-left:15%;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+#second>#progr>li:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+#second{
+    display: block;
+    width: 15.5%;
+    box-sizing: border-box;
+    background-color: darkblue;
+    margin-left: 21.5%;
+    margin-top: -3%;
+    position: absolute;
+    z-index: 1;
+}
+
+#carousel{
+display: block;
+margin: auto;
+width: 100%;
+}
+
+#mainSearch{
+    position: absolute;
+    top: 153px;
+    left: 160px;
+    height: 55px;
+    width: 600px;
+    border: 5px solid darkblue;
+    border-radius: 5px;
+    background: white url('assets/imgs/lupa.png') no-repeat left center;
+    font-size: 2em;
+}
+#programa{
+    height: 55px;
+    width: 250px;
+    background-color: darkblue;
+    color: white;
+    border: 3px solid lightblue;
+    border-radius: 5px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 153px;
+    left: 900px;
+}
+.carImg{
+    display: inline-block !important;
+    margin-left: 22px !important;
+}
+.container{
+    position: absolute;
+    top:250px;
+    width: 80% !important;
+    margin-left: 32px !important;
+}
+.threeCol{
+    margin-top: 20px;
+    height: 100%;
+    display: inline-block;
+    width: 100%
+}
+.artCol{
+    display: block;
+    width: 31%;
+    box-sizing: border-box;
+    margin-left: 20px;
+    background-color: white;
+    text-align: center;
+    height: 400px;
+    float: left;
+    overflow: auto;
+    border: 5px solid lightblue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.artCol>hr{
+height: 4px;
+width: 90%;
+background-color: darkblue;
+}
+#movieSort{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 0px;
+}
+#movieSort>li{
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    width: 13.5%;
+    line-height: 2em;
+    padding: 10px 0px;
+    text-align: center;
+}
+#movies>section>img{
+    width: 150px;
+}
+#movies{
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+}
+#movies> section{
+    float: left;
+        display: block;
+    width: 43%;
+    margin-right: 33px;
+}
